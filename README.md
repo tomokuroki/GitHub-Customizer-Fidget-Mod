@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # GitHub Customizer & Fidget Mod
 
 [![Developer](https://img.shields.io/badge/Developer-@tomokuroki-blueviolet?style=for-the-badge)](https://github.com/tomokuroki)
@@ -76,4 +75,3 @@ Developed with ❤️ by **[@tomokuroki](https://github.com/tomokuroki)**. Follo
 =======
 # GitHub-Customizer-Fidget-Mod
 An all-in-one productivity and customization mod for GitHub. It replaces standard styling with premium dark color modes, injects custom helper scripts, and features an interactive contribution-board fidget Pop It directly inside your browser toolbar!
->>>>>>> 3badfd6e102aff2df6d19d8cac5896ce56d7f12a
