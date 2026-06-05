@@ -1,0 +1,464 @@
+/* ==========================================
+   GITHUB PREMIUM CUSTOM THEMES - STYLESHEET
+   Developed by @tomokuroki
+   ========================================== */
+
+/* ==========================================
+   1. COFFEE THEME (Warm Espresso & Latte)
+   ========================================== */
+html[data-custom-theme="coffee"] {
+  color-scheme: dark !important;
+
+  /* Legacy Primer Variables */
+  --color-canvas-default: #1e1612 !important;
+  --color-canvas-subtle: #291e19 !important;
+  --color-canvas-inset: #140e0b !important;
+  --color-canvas-overlay: #2d211b !important;
+
+  --color-fg-default: #f5ebe0 !important;
+  --color-fg-muted: #d5bdaf !important;
+  --color-fg-subtle: #a38c7f !important;
+
+  --color-border-default: #433228 !important;
+  --color-border-muted: #564033 !important;
+  --color-border-subtle: #37271e !important;
+
+  --color-accent-fg: #d4a373 !important;
+  --color-accent-emphasis: #a06a38 !important;
+  --color-accent-muted: rgba(212, 163, 115, 0.15) !important;
+  --color-accent-subtle: rgba(212, 163, 115, 0.08) !important;
+
+  --color-success-fg: #a3b18a !important;
+  --color-success-emphasis: #588157 !important;
+  --color-success-muted: rgba(163, 177, 138, 0.15) !important;
+  --color-success-subtle: rgba(163, 177, 138, 0.08) !important;
+
+  --color-danger-fg: #e07a5f !important;
+  --color-danger-emphasis: #c94a29 !important;
+  --color-danger-muted: rgba(224, 122, 95, 0.15) !important;
+  --color-danger-subtle: rgba(224, 122, 95, 0.08) !important;
+
+  --color-attention-fg: #f2cc8f !important;
+  --color-attention-emphasis: #d4a249 !important;
+  --color-attention-muted: rgba(242, 204, 143, 0.15) !important;
+  --color-attention-subtle: rgba(242, 204, 143, 0.08) !important;
+
+  --color-done-fg: #b5838d !important;
+  --color-done-emphasis: #9d5c68 !important;
+  --color-done-muted: rgba(181, 131, 141, 0.15) !important;
+  --color-done-subtle: rgba(181, 131, 141, 0.08) !important;
+
+  --color-header-bg: #150f0c !important;
+  --color-header-text: #f5ebe0 !important;
+  --color-header-search-bg: #291e19 !important;
+  --color-header-search-border: #433228 !important;
+
+  /* Modern Primer v8+ Variables */
+  --bgColor-default: #1e1612 !important;
+  --bgColor-muted: #291e19 !important;
+  --bgColor-inset: #140e0b !important;
+  --bgColor-overlay: #2d211b !important;
+
+  --fgColor-default: #f5ebe0 !important;
+  --fgColor-muted: #d5bdaf !important;
+  --fgColor-subtle: #a38c7f !important;
+  --fgColor-accent: #d4a373 !important;
+  --fgColor-success: #a3b18a !important;
+  --fgColor-danger: #e07a5f !important;
+  --fgColor-attention: #f2cc8f !important;
+  --fgColor-done: #b5838d !important;
+
+  --borderColor-default: #433228 !important;
+  --borderColor-muted: #564033 !important;
+  --borderColor-subtle: #37271e !important;
+  --borderColor-accent-emphasis: #a06a38 !important;
+  --borderColor-accent-muted: rgba(212, 163, 115, 0.15) !important;
+
+  --bgColor-accent-emphasis: #a06a38 !important;
+  --bgColor-accent-muted: rgba(212, 163, 115, 0.15) !important;
+  --bgColor-success-emphasis: #588157 !important;
+  --bgColor-success-muted: rgba(163, 177, 138, 0.15) !important;
+  --bgColor-danger-emphasis: #c94a29 !important;
+  --bgColor-danger-muted: rgba(224, 122, 95, 0.15) !important;
+  --bgColor-attention-emphasis: #d4a249 !important;
+  --bgColor-attention-muted: rgba(242, 204, 143, 0.15) !important;
+  --bgColor-done-emphasis: #9d5c68 !important;
+  --bgColor-done-muted: rgba(181, 131, 141, 0.15) !important;
+
+  --bgColor-header: #150f0c !important;
+  --fgColor-header: #f5ebe0 !important;
+  --bgColor-header-search: #291e19 !important;
+}
+
+/* ==========================================
+   2. BLACK AMOLED THEME (Pure OLED Black)
+   ========================================== */
+html[data-custom-theme="amoled"] {
+  color-scheme: dark !important;
+
+  /* Legacy Primer Variables */
+  --color-canvas-default: #000000 !important;
+  --color-canvas-subtle: #0d0d0d !important;
+  --color-canvas-inset: #050505 !important;
+  --color-canvas-overlay: #121212 !important;
+
+  --color-fg-default: #f1f5f9 !important;
+  --color-fg-muted: #94a3b8 !important;
+  --color-fg-subtle: #64748b !important;
+
+  --color-border-default: #262626 !important;
+  --color-border-muted: #333333 !important;
+  --color-border-subtle: #1a1a1a !important;
+
+  --color-accent-fg: #00f0ff !important;
+  --color-accent-emphasis: #00b8c4 !important;
+  --color-accent-muted: rgba(0, 240, 255, 0.15) !important;
+  --color-accent-subtle: rgba(0, 240, 255, 0.08) !important;
+
+  --color-success-fg: #00ff66 !important;
+  --color-success-emphasis: #00b347 !important;
+  --color-success-muted: rgba(0, 255, 102, 0.15) !important;
+  --color-success-subtle: rgba(0, 255, 102, 0.08) !important;
+
+  --color-danger-fg: #ff3366 !important;
+  --color-danger-emphasis: #cc003c !important;
+  --color-danger-muted: rgba(255, 51, 102, 0.15) !important;
+  --color-danger-subtle: rgba(255, 51, 102, 0.08) !important;
+
+  --color-attention-fg: #ffcc00 !important;
+  --color-attention-emphasis: #cca300 !important;
+  --color-attention-muted: rgba(255, 204, 0, 0.15) !important;
+  --color-attention-subtle: rgba(255, 204, 0, 0.08) !important;
+
+  --color-done-fg: #cc00ff !important;
+  --color-done-emphasis: #9900cc !important;
+  --color-done-muted: rgba(204, 0, 255, 0.15) !important;
+  --color-done-subtle: rgba(204, 0, 255, 0.08) !important;
+
+  --color-header-bg: #000000 !important;
+  --color-header-text: #f1f5f9 !important;
+  --color-header-search-bg: #0d0d0d !important;
+  --color-header-search-border: #262626 !important;
+
+  /* Modern Primer v8+ Variables */
+  --bgColor-default: #000000 !important;
+  --bgColor-muted: #0d0d0d !important;
+  --bgColor-inset: #050505 !important;
+  --bgColor-overlay: #121212 !important;
+
+  --fgColor-default: #f1f5f9 !important;
+  --fgColor-muted: #94a3b8 !important;
+  --fgColor-subtle: #64748b !important;
+  --fgColor-accent: #00f0ff !important;
+  --fgColor-success: #00ff66 !important;
+  --fgColor-danger: #ff3366 !important;
+  --fgColor-attention: #ffcc00 !important;
+  --fgColor-done: #cc00ff !important;
+
+  --borderColor-default: #262626 !important;
+  --borderColor-muted: #333333 !important;
+  --borderColor-subtle: #1a1a1a !important;
+  --borderColor-accent-emphasis: #00b8c4 !important;
+  --borderColor-accent-muted: rgba(0, 240, 255, 0.15) !important;
+
+  --bgColor-accent-emphasis: #00b8c4 !important;
+  --bgColor-accent-muted: rgba(0, 240, 255, 0.15) !important;
+  --bgColor-success-emphasis: #00b347 !important;
+  --bgColor-success-muted: rgba(0, 255, 102, 0.15) !important;
+  --bgColor-danger-emphasis: #cc003c !important;
+  --bgColor-danger-muted: rgba(255, 51, 102, 0.15) !important;
+  --bgColor-attention-emphasis: #cca300 !important;
+  --bgColor-attention-muted: rgba(255, 204, 0, 0.15) !important;
+  --bgColor-done-emphasis: #9900cc !important;
+  --bgColor-done-muted: rgba(204, 0, 255, 0.15) !important;
+
+  --bgColor-header: #000000 !important;
+  --fgColor-header: #f1f5f9 !important;
+  --bgColor-header-search: #0d0d0d !important;
+}
+
+/* ==========================================
+   3. PURPLE THEME (Dreamy Lavender/Violet)
+   ========================================== */
+html[data-custom-theme="purple"] {
+  color-scheme: dark !important;
+
+  /* Legacy Primer Variables */
+  --color-canvas-default: #0f0a1c !important;
+  --color-canvas-subtle: #16102b !important;
+  --color-canvas-inset: #090612 !important;
+  --color-canvas-overlay: #1a1233 !important;
+
+  --color-fg-default: #ebdfff !important;
+  --color-fg-muted: #c0b3e5 !important;
+  --color-fg-subtle: #8e7eb8 !important;
+
+  --color-border-default: #2a204d !important;
+  --color-border-muted: #392e66 !important;
+  --color-border-subtle: #1d1538 !important;
+
+  --color-accent-fg: #a855f7 !important;
+  --color-accent-emphasis: #8b5cf6 !important;
+  --color-accent-muted: rgba(168, 85, 247, 0.15) !important;
+  --color-accent-subtle: rgba(168, 85, 247, 0.08) !important;
+
+  --color-success-fg: #4ade80 !important;
+  --color-success-emphasis: #22c55e !important;
+  --color-success-muted: rgba(74, 222, 128, 0.15) !important;
+  --color-success-subtle: rgba(74, 222, 128, 0.08) !important;
+
+  --color-danger-fg: #f87171 !important;
+  --color-danger-emphasis: #ef4444 !important;
+  --color-danger-muted: rgba(248, 113, 113, 0.15) !important;
+  --color-danger-subtle: rgba(248, 113, 113, 0.08) !important;
+
+  --color-attention-fg: #fbbf24 !important;
+  --color-attention-emphasis: #f59e0b !important;
+  --color-attention-muted: rgba(251, 191, 36, 0.15) !important;
+  --color-attention-subtle: rgba(251, 191, 36, 0.08) !important;
+
+  --color-done-fg: #d8b4fe !important;
+  --color-done-emphasis: #c084fc !important;
+  --color-done-muted: rgba(216, 180, 254, 0.15) !important;
+  --color-done-subtle: rgba(216, 180, 254, 0.08) !important;
+
+  --color-header-bg: #0a0614 !important;
+  --color-header-text: #ebdfff !important;
+  --color-header-search-bg: #16102b !important;
+  --color-header-search-border: #2a204d !important;
+
+  /* Modern Primer v8+ Variables */
+  --bgColor-default: #0f0a1c !important;
+  --bgColor-muted: #16102b !important;
+  --bgColor-inset: #090612 !important;
+  --bgColor-overlay: #1a1233 !important;
+
+  --fgColor-default: #ebdfff !important;
+  --fgColor-muted: #c0b3e5 !important;
+  --fgColor-subtle: #8e7eb8 !important;
+  --fgColor-accent: #a855f7 !important;
+  --fgColor-success: #4ade80 !important;
+  --fgColor-danger: #f87171 !important;
+  --fgColor-attention: #fbbf24 !important;
+  --fgColor-done: #d8b4fe !important;
+
+  --borderColor-default: #2a204d !important;
+  --borderColor-muted: #392e66 !important;
+  --borderColor-subtle: #1d1538 !important;
+  --borderColor-accent-emphasis: #8b5cf6 !important;
+  --borderColor-accent-muted: rgba(168, 85, 247, 0.15) !important;
+
+  --bgColor-accent-emphasis: #8b5cf6 !important;
+  --bgColor-accent-muted: rgba(168, 85, 247, 0.15) !important;
+  --bgColor-success-emphasis: #22c55e !important;
+  --bgColor-success-muted: rgba(74, 222, 128, 0.15) !important;
+  --bgColor-danger-emphasis: #ef4444 !important;
+  --bgColor-danger-muted: rgba(248, 113, 113, 0.15) !important;
+  --bgColor-attention-emphasis: #f59e0b !important;
+  --bgColor-attention-muted: rgba(251, 191, 36, 0.15) !important;
+  --bgColor-done-emphasis: #c084fc !important;
+  --bgColor-done-muted: rgba(216, 180, 254, 0.15) !important;
+
+  --bgColor-header: #0a0614 !important;
+  --fgColor-header: #ebdfff !important;
+  --bgColor-header-search: #16102b !important;
+}
+
+/* ==========================================
+   4. CALM DARK THEME (Nord & Slate Minimal)
+   ========================================== */
+html[data-custom-theme="calm-dark"] {
+  color-scheme: dark !important;
+
+  /* Legacy Primer Variables */
+  --color-canvas-default: #1e222b !important;
+  --color-canvas-subtle: #252a34 !important;
+  --color-canvas-inset: #161920 !important;
+  --color-canvas-overlay: #282e3a !important;
+
+  --color-fg-default: #e2e8f0 !important;
+  --color-fg-muted: #94a3b8 !important;
+  --color-fg-subtle: #64748b !important;
+
+  --color-border-default: #334155 !important;
+  --color-border-muted: #475569 !important;
+  --color-border-subtle: #1e293b !important;
+
+  --color-accent-fg: #38bdf8 !important;
+  --color-accent-emphasis: #0284c7 !important;
+  --color-accent-muted: rgba(56, 189, 248, 0.15) !important;
+  --color-accent-subtle: rgba(56, 189, 248, 0.08) !important;
+
+  --color-success-fg: #34d399 !important;
+  --color-success-emphasis: #059669 !important;
+  --color-success-muted: rgba(52, 211, 153, 0.15) !important;
+  --color-success-subtle: rgba(52, 211, 153, 0.08) !important;
+
+  --color-danger-fg: #f87171 !important;
+  --color-danger-emphasis: #dc2626 !important;
+  --color-danger-muted: rgba(248, 113, 113, 0.15) !important;
+  --color-danger-subtle: rgba(248, 113, 113, 0.08) !important;
+
+  --color-attention-fg: #f59e0b !important;
+  --color-attention-emphasis: #d97706 !important;
+  --color-attention-muted: rgba(245, 158, 11, 0.15) !important;
+  --color-attention-subtle: rgba(245, 158, 11, 0.08) !important;
+
+  --color-done-fg: #c084fc !important;
+  --color-done-emphasis: #9333ea !important;
+  --color-done-muted: rgba(192, 132, 252, 0.15) !important;
+  --color-done-subtle: rgba(192, 132, 252, 0.08) !important;
+
+  --color-header-bg: #171a21 !important;
+  --color-header-text: #e2e8f0 !important;
+  --color-header-search-bg: #252a34 !important;
+  --color-header-search-border: #334155 !important;
+
+  /* Modern Primer v8+ Variables */
+  --bgColor-default: #1e222b !important;
+  --bgColor-muted: #252a34 !important;
+  --bgColor-inset: #161920 !important;
+  --bgColor-overlay: #282e3a !important;
+
+  --fgColor-default: #e2e8f0 !important;
+  --fgColor-muted: #94a3b8 !important;
+  --fgColor-subtle: #64748b !important;
+  --fgColor-accent: #38bdf8 !important;
+  --fgColor-success: #34d399 !important;
+  --fgColor-danger: #f87171 !important;
+  --fgColor-attention: #f59e0b !important;
+  --fgColor-done: #c084fc !important;
+
+  --borderColor-default: #334155 !important;
+  --borderColor-muted: #475569 !important;
+  --borderColor-subtle: #1e293b !important;
+  --borderColor-accent-emphasis: #0284c7 !important;
+  --borderColor-accent-muted: rgba(56, 189, 248, 0.15) !important;
+
+  --bgColor-accent-emphasis: #0284c7 !important;
+  --bgColor-accent-muted: rgba(56, 189, 248, 0.15) !important;
+  --bgColor-success-emphasis: #059669 !important;
+  --bgColor-success-muted: rgba(52, 211, 153, 0.15) !important;
+  --bgColor-danger-emphasis: #dc2626 !important;
+  --bgColor-danger-muted: rgba(248, 113, 113, 0.15) !important;
+  --bgColor-attention-emphasis: #d97706 !important;
+  --bgColor-attention-muted: rgba(245, 158, 11, 0.15) !important;
+  --bgColor-done-emphasis: #9333ea !important;
+  --bgColor-done-muted: rgba(192, 132, 252, 0.15) !important;
+
+  --bgColor-header: #171a21 !important;
+  --fgColor-header: #e2e8f0 !important;
+  --bgColor-header-search: #252a34 !important;
+}
+
+/* ==========================================
+   5. HELPER OVERRIDES (Hardcoded layouts fixing)
+   ========================================== */
+html[data-custom-theme] body {
+  background-color: var(--bgColor-default) !important;
+  color: var(--fgColor-default) !important;
+}
+
+/* Fix active menu selections and hover items */
+html[data-custom-theme] .navigation-item[aria-selected="true"] {
+  background-color: var(--bgColor-accent-muted) !important;
+}
+
+/* Code editor fixes (making code container follow theme backgrounds) */
+html[data-custom-theme] .blob-wrapper,
+html[data-custom-theme] .blob-num,
+html[data-custom-theme] .blob-code-inner {
+  background-color: var(--bgColor-inset) !important;
+}
+
+/* Markdown tables alternate row styling */
+html[data-custom-theme] table tr:nth-child(2n) {
+  background-color: var(--bgColor-muted) !important;
+}
+
+/* ==========================================
+   6. GITHUB MODS STYLING
+   ========================================== */
+
+/* A. Zen / Focus Mode */
+html[data-mod-zen="true"] #global-nav-header,
+html[data-mod-zen="true"] header[role="banner"],
+html[data-mod-zen="true"] .AppHeader,
+html[data-mod-zen="true"] .Layout-sidebar,
+html[data-mod-zen="true"] footer,
+html[data-mod-zen="true"] .gh-header-meta,
+html[data-mod-zen="true"] .gh-header-actions {
+  display: none !important;
+}
+
+html[data-mod-zen="true"] .Layout-main {
+  max-width: 100% !important;
+  width: 100% !important;
+  flex: auto !important;
+}
+
+html[data-mod-zen="true"] .container-xl {
+  max-width: 1200px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+/* B. Interactive Contributions (Profile Calendar Hover Effects) */
+html[data-mod-contributions="true"] td.ContributionCalendar-day,
+html[data-mod-contributions="true"] rect.ContributionCalendar-day {
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease, filter 0.2s ease !important;
+}
+
+html[data-mod-contributions="true"] td.ContributionCalendar-day:hover,
+html[data-mod-contributions="true"] rect.ContributionCalendar-day:hover {
+  transform: scale(1.45) !important;
+  z-index: 50 !important;
+  outline: none !important;
+  box-shadow: 0 0 10px var(--color-accent-fg, var(--fgColor-accent, #58a6ff)) !important;
+  filter: brightness(1.25) !important;
+}
+
+/* C. Floating Back-to-Top Button */
+.github-mod-back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color-canvas-overlay, var(--bgColor-overlay, #161b22)) !important;
+  border: 1px solid var(--color-border-default, var(--borderColor-default, #30363d)) !important;
+  color: var(--color-fg-default, var(--fgColor-default, #c9d1d9)) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  z-index: 99999 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+}
+
+.github-mod-back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.github-mod-back-to-top:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent-fg, var(--fgColor-accent, #58a6ff)) !important;
+  color: var(--color-accent-fg, var(--fgColor-accent, #58a6ff)) !important;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35) !important;
+}
+
+.github-mod-back-to-top svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+

@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Customizer & Fidget Mod",
+  "version": "1.0.0",
+  "description": "A comprehensive mod for GitHub. Adds premium dark themes, Zen Focus mode, contribution calendar effects, scroll helpers, and a Pop It board. Dev: @tomokuroki",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*",
+        "https://gist.github.com/*"
+      ],
+      "css": [
+        "themes.css"
+      ],
+      "js": [
+        "inject.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "https://github.com/settings/appearance"
+      ],
+      "js": [
+        "appearance.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}

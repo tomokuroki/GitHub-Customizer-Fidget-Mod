@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Themes & Mods</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <header class="header">
+      <div class="brand">
+        <div class="logo-wrapper">
+          <svg viewBox="0 0 24 24" class="logo-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.477 2 2 6.477 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21.02C9.5 20.8 9.5 20.02 9.5 19.25C6.72 19.85 6.13 18.06 6.13 18.06C5.67 16.9 5.01 16.59 5.01 16.59C4.1 15.97 5.08 15.98 5.08 15.98C6.09 16.05 6.62 17.02 6.62 17.02C7.5 18.55 8.97 18.1 9.55 17.84C9.64 17.2 9.89 16.77 10.17 16.52C7.95 16.27 5.62 15.41 5.62 11.57C5.62 10.48 6.01 9.58 6.65 8.88C6.55 8.63 6.2 7.61 6.75 6.23C6.75 6.23 7.59 5.96 9.5 7.25C10.3 7.03 11.15 6.92 12 6.92C12.85 6.92 13.7 7.03 14.5 7.25C16.41 5.96 17.25 6.23 17.25 6.23C17.8 7.61 17.45 8.63 17.35 8.88C17.99 9.58 18.38 10.48 18.38 11.57C18.38 15.42 16.04 16.27 13.81 16.52C14.17 16.83 14.49 17.45 14.49 18.4C14.49 19.77 14.48 20.87 14.48 21.2C14.48 21.46 14.63 21.77 15.14 21.67C19.11 20.33 22 16.58 22 12C22 6.477 17.52 2 12 2Z" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>GitHub Customizer</h1>
+          <p>Premium Themes & Mods</p>
+        </div>
+      </div>
+      <a href="https://github.com/settings/appearance" target="_blank" class="settings-btn" title="Open GitHub settings">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+        </svg>
+      </a>
+    </header>
+
+    <!-- Theme Selector Carousel/Pills -->
+    <section class="section-theme">
+      <h2 class="section-title">Themes</h2>
+      <div class="theme-pills">
+        <button class="theme-pill" data-theme="disabled" title="Default Theme">
+          <span class="pill-dot" style="background-color: #30363d;"></span>
+          Def
+        </button>
+        <button class="theme-pill" data-theme="coffee" title="Coffee Shop Theme">
+          <span class="pill-dot" style="background-color: #d4a373;"></span>
+          Coffee
+        </button>
+        <button class="theme-pill" data-theme="amoled" title="AMOLED Black Theme">
+          <span class="pill-dot" style="background-color: #00f0ff;"></span>
+          OLED
+        </button>
+        <button class="theme-pill" data-theme="purple" title="Midnight Purple Theme">
+          <span class="pill-dot" style="background-color: #a855f7;"></span>
+          Purple
+        </button>
+        <button class="theme-pill" data-theme="calm-dark" title="Calm Dark Theme">
+          <span class="pill-dot" style="background-color: #38bdf8;"></span>
+          Calm
+        </button>
+      </div>
+    </section>
+
+    <!-- Developer Profile Card -->
+    <section class="section-profile">
+      <div class="profile-card" id="profile-card">
+        <div class="profile-header">
+          <img src="https://avatars.githubusercontent.com/u/82545564?v=4" alt="Avatar" class="profile-avatar" id="dev-avatar">
+          <div class="profile-meta">
+            <h3 id="dev-name">tomokuroki</h3>
+            <p id="dev-bio">Loading developer profile...</p>
+          </div>
+        </div>
+        <div class="profile-stats">
+          <div class="stat-item">
+            <span class="stat-value" id="stat-repos">--</span>
+            <span class="stat-label">Repos</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value" id="stat-followers">--</span>
+            <span class="stat-label">Followers</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-value" id="stat-stars">--</span>
+            <span class="stat-label">Stars</span>
+          </div>
+        </div>
+        <a href="https://github.com/tomokuroki" target="_blank" class="profile-link-btn">
+          View Profile on GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- GitHub Mods Section -->
+    <section class="section-mods">
+      <h2 class="section-title">GitHub Mods</h2>
+      <div class="mods-list">
+        <!-- Contribution Effects -->
+        <div class="mod-item">
+          <div class="mod-info">
+            <span class="mod-name">Interactive Graph</span>
+            <span class="mod-desc">Interactive hover pops on profile calendars</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="toggle-mod-contributions">
+            <span class="slider round"></span>
+          </label>
+        </div>
+
+        <!-- Back to Top -->
+        <div class="mod-item">
+          <div class="mod-info">
+            <span class="mod-name">Back to Top Button</span>
+            <span class="mod-desc">Floating back-to-top scrolling guide</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="toggle-mod-backtotop">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Pop It Contribution Board -->
+    <section class="section-popit">
+      <div class="popit-header">
+        <h2 class="section-title">Fidget Pop It</h2>
+        <button class="reset-btn" id="reset-popit" title="Reset Pop It Board">Reset</button>
+      </div>
+      <div class="popit-grid-wrapper">
+        <div class="popit-grid" id="popit-grid">
+          <!-- Pop It blocks injected here dynamically -->
+        </div>
+      </div>
+      <p class="popit-instructions">Pop the contribution cells! Sound synthesized live.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <span>Designed with ❤️ by</span>
+      <a href="https://github.com/tomokuroki" target="_blank" class="dev-link">@tomokuroki</a>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
